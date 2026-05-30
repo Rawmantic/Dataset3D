@@ -35,7 +35,7 @@ If you use this dataset in your research, please cite it as:
 
 ```bibtex
 @article{rawmantic2026data,
-  title={Rawmantic 3D Training Filed: From The Real World, For The Real World},
+  title={Rawmantic 3D Training Field: From The Real World, For The Real World},
   author={Rawmantic Team},
   journal={Rawmantic},
   year={2026}

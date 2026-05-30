@@ -1,6 +1,6 @@
-# Rawmantic 3D Training Filed
+# Rawmantic 3D Training Field
 
-This is the first large-scale "ImageNet"-style dataset for 3D understanding. 
+The first large-scale "ImageNet"-style dataset for 3D understanding. 
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.

@@ -2,6 +2,8 @@
 
 The first large-scale "ImageNet"-style dataset for 3D understanding. 
 
+[![Alt text](https://img.youtube.com/vi/r6MN4kp-xdk/maxresdefault.jpg)](https://www.youtube.com/watch?v=r6MN4kp-xdk)
+
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.
 

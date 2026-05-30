@@ -1,8 +1,16 @@
-# Rawmantic 3D Training Field
+<p align="center">
+  <h1 align="center">Rawmantic 3D Training Field</h1>
+  <h3 align="center">
+    <a href="https://raw3d.xyz">Official Website</a> | <a href="https://www.xiaohongshu.com/user/profile/665a20c10000000007006306?xsec_token=YB4FbicsZ5plOqpb3GeHJklsdaKevb5algrp0Xrsebo5E=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODc0Q0VLSkw2NzUyOTgwNjY0OTdFOko8&apptime=1768890307&share_id=9992c42a270b4cbc877261982742e979">Xiaohongshu</a> | <a href="https://www.youtube.com/watch?v=r6MN4kp-xdk">Youtube</a> | <a href="https://www.bilibili.com/video/BV1q2Vg6ZExu/?spm_id_from=333.1387.homepage.video_card.click">Bilibili</a>
+  </h3>
+</p>
+
+<p align="center">
+  <img src="./assets/teaser.png" alt="dataset3d teaser" width="100%">
+</p>
+
 
 The first large-scale "ImageNet"-style dataset for 3D understanding. 
-
-[![Alt text](https://img.youtube.com/vi/r6MN4kp-xdk/maxresdefault.jpg)](https://www.youtube.com/watch?v=r6MN4kp-xdk)
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.

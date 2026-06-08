@@ -17,13 +17,35 @@ The first large-scale "ImageNet"-style dataset for 3D understanding.
 
 ## Dataset Reader
 
-Features may include:
+Features may include (see reader.py):
 
 - loading 3D depth, normal, trajectory, mesh, and multi-view images
 - reading object labels, bounding boxes, and semantic annotations
 - supporting common dataset splits and evaluation protocols
 - benchmark your SLAM, 3D reconstruction and other 3D related tasks.
 
+
+Data Structure Example:
+```
+Rawmantic
+└── LivingSpace
+    └── StreetBlock
+        └── LivingSpace_StreetBlock_00000000_ICPark
+            └── 00000000_ICPark_02
+                └── data
+                    ├── depth_camera_left
+                    ├── depth_camera_right
+                    ├── depth_camera_third
+                    ├── normal_camera_left
+                    ├── normal_camera_right
+                    ├── normal_camera_third
+                    ├── pose_camera_left
+                    ├── pose_camera_right
+                    ├── pose_camera_third
+                    ├── rgb_camera_left
+                    ├── rgb_camera_right
+                    └── rgb_camera_third
+```
 
 ## Release Plan
 
@@ -35,8 +57,10 @@ Features may include:
 
 ## Download
 
-- **Baidu Yunpan**: still under working
-- **Google Drive**: still under working
+Still uploading, 4 sub scenes are done...
+
+- **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
+- **Google Drive**: slow transfer speed, try to find an alternative.
 
 
 ## Citation

@@ -36,7 +36,7 @@ def read_image(filename):
 
 def read_normal(filename):
     normal = Image.open(filename)
-    normal = np.array(img).astype(np.float32) / 255.0
+    normal = np.array(normal).astype(np.float32) / 255.0
     normal = normal * 2 - 1 # [-1, 1], camera view
 
     return normal
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     pose = read_camera(os.path.join(root, 'pose_camera_left', f"{id:08}_cam.txt"))
     print(pose)
 
-    depth, valid = read_depth(os.path.join(root, 'depth_camera_left', f"{id:08}_rgb.jpg"))
+    depth, valid = read_depth(os.path.join(root, 'depth_camera_left', f"{id:08}_depth.png"))
     plt.imshow(depth, cmap='jet'); plt.show()
 
     print('Done!')

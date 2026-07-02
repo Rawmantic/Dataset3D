@@ -10,7 +10,9 @@
 </p>
 
 
-The first large-scale "ImageNet"-style dataset for 3D understanding. **Over 1 million samples** will be available, feel free to write to us for research purpose, we will provide 100% support!!!
+The first large-scale "ImageNet"-style dataset for 3D understanding. 
+
+**Over 1 million samples will be released, feel free to write to us for research purpose, we will provide 100% support!**
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.

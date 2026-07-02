@@ -10,7 +10,7 @@
 </p>
 
 
-The first large-scale "ImageNet"-style dataset for 3D understanding. 
+The first large-scale "ImageNet"-style dataset for 3D understanding. **Over 1 million samples** will be available, feel free to write to us for research purpose, we will provide 100% support!!!
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.
@@ -52,12 +52,12 @@ Rawmantic
 | Release | Description | Status |
 |---|---|---|
 | v1.0 | Initial public release with demo dataset and annotations | 2026.06 |
-| v1.1 | Expanded scenes, improved annotation coverage, and reader updates | Planned |
+| v1.1 | Expanded scenes, near 1M samples will be released | 2026.07 |
 | v2.0 | Full dataset scale release, benchmark split, and evaluation toolkit | Planned |
 
 ## Download
 
-Still uploading, 4 sub scenes are done...
+Still uploading, 5 sub scenes are done...
 
 - **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
 - **Google Drive**: slow transfer speed, try to find an alternative.

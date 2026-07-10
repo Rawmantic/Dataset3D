@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">Rawmantic 3D Training Field</h1>
   <h3 align="center">
-    <a href="https://raw3d.xyz">Official Website</a> | <a href="https://www.xiaohongshu.com/user/profile/665a20c10000000007006306?xsec_token=YB4FbicsZ5plOqpb3GeHJklsdaKevb5algrp0Xrsebo5E=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODc0Q0VLSkw2NzUyOTgwNjY0OTdFOko8&apptime=1768890307&share_id=9992c42a270b4cbc877261982742e979">Xiaohongshu</a>
+    <a href="https://raw3d.xyz">Official Website</a> | <a href="https://www.xiaohongshu.com/user/profile/665a20c10000000007006306?xsec_token=YB4FbicsZ5plOqpb3GeHJklsdaKevb5algrp0Xrsebo5E=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODc0Q0VLSkw2NzUyOTgwNjY0OTdFOko8&apptime=1768890307&share_id=9992c42a270b4cbc877261982742e979">Xiaohongshu</a> | <a href="https://raw3d.xyz/dataset">Demo Page</a> | <a href="https://github.com/Rawmantic/Dataset3D#download"> 1M Download</a>
   </h3>
 </p>
 
@@ -14,6 +14,15 @@ The first large-scale "ImageNet"-style dataset for 3D understanding.
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.
+
+## Download
+
+Still uploading, **6/100** scenes are done, eventually will be over 1M multiview samples!
+
+- **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
+- **Google Drive**: please contact us if anyone can help, super slow transfering speed.
+
+**We get big issue on uploading. Lots of scenes are ready, but very slow speed on uploading.**
 
 ## Dataset Reader
 
@@ -54,14 +63,6 @@ Rawmantic
 | v1.0 | Initial public release with demo dataset and annotations | 2026.06 |
 | v1.1 | Expanded scenes | 2026.07 |
 | v2.0 | Full dataset scale release, benchmark split, and evaluation toolkit | Planned |
-
-## Download
-
-Still uploading, 5 sub scenes are done...
-
-- **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
-- **Google Drive**: slow transfer speed, try to find an alternative.
-
 
 ## Citation
 

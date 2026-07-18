@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def read_depth(filename):
     depth = cv2.imread(filename, cv2.IMREAD_UNCHANGED)
-    depth = depth.view("<f4").squeeze()
+    depth = depth.view("<f4").squeeze()  # [H, W]
     valid = (depth > 0.001) & (depth < 10000.0)
 
     return depth, valid
@@ -30,13 +30,13 @@ def read_camera(filename):
 def read_image(filename):
     img = Image.open(filename)
     img = np.array(img).astype(np.uint8)
-    img = img[..., :3]
+    img = img[..., :3]  # [H, W, 3]
 
     return img
 
 def read_normal(filename):
     normal = Image.open(filename)
-    normal = np.array(normal).astype(np.float32) / 255.0
+    normal = np.array(normal).astype(np.float32) / 255.0  # [H, W, 3]
     normal = normal * 2 - 1 # [-1, 1], camera view
 
     return normal
@@ -54,5 +54,8 @@ if __name__ == '__main__':
 
     depth, valid = read_depth(os.path.join(root, 'depth_camera_left', f"{id:08}_depth.png"))
     plt.imshow(depth, cmap='jet'); plt.show()
+
+    normal = read_normal(os.path.join(root, 'normal_camera_left', f"{id:08}_normal.png"))
+    plt.imshow((normal+1)/2); plt.show()
 
     print('Done!')

@@ -25,10 +25,10 @@ Still uploading, **20/100** scenes are done (listed in [scenes.txt](scenes.txt))
 
 ## Dataset Reader
 
-Features may include (see reader.py):
+Features may include (see [reader.py](reader.py)):
 
-- loading 3D depth, normal, trajectory, mesh, and multi-view images
-- reading object labels, bounding boxes, and semantic annotations
+- loading 3D depth, normal, trajectory, and multi-view images
+- future feature: reading object labels, bounding boxes, and semantic annotations
 - supporting common dataset splits and evaluation protocols
 - benchmark your SLAM, 3D reconstruction and other 3D related tasks.
 

@@ -10,7 +10,7 @@
 </p>
 
 
-The first large-scale "ImageNet"-style dataset for 3D understanding. 
+The first large-scale "ImageNet"-style dataset for 3D understanding, support the training of Stereo Matching (e.g., FoundationStereo), Feed-Forward (e.g., VGGT, Pi3, DepthAnythingV3), MVS, SLAM. 
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.
@@ -41,13 +41,13 @@ Rawmantic
         └── LivingSpace_StreetBlock_00000000_ICPark
             └── 00000000_ICPark_02
                 └── data
-                    ├── depth_camera_left
-                    ├── depth_camera_right
-                    ├── depth_camera_third
-                    ├── normal_camera_left
+                    ├── depth_camera_left:  left camera, reference view
+                    ├── depth_camera_right: w.r.t., the left camera, it's a stereo view
+                    ├── depth_camera_third: w.r.t., the left camera, it's a random view, i.e., multi-view
+                    ├── normal_camera_left: surface normal in camera view
                     ├── normal_camera_right
                     ├── normal_camera_third
-                    ├── pose_camera_left
+                    ├── pose_camera_left:   given intrinsics and extrinsics
                     ├── pose_camera_right
                     ├── pose_camera_third
                     ├── rgb_camera_left

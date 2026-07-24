@@ -17,7 +17,7 @@ The first large-scale "ImageNet"-style dataset for 3D understanding.
 
 ## Download
 
-Still uploading, **20/100** scenes are done (listed in [scenes.txt](scenes.txt)), near 250K samples, eventually will be over 1M multiview samples!
+Still uploading, **25/100** scenes are done (listed in [scenes.txt](scenes.txt)), near 300K samples, eventually will be over 1M multiview samples!
 
 - **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
 - **Google Drive**: please contact us if anyone can help, super slow transfering speed.

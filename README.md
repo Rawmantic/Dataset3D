@@ -14,15 +14,15 @@ The first large-scale "ImageNet"-style dataset for 3D understanding.
 
 - **Dataset page**: https://raw3d.xyz/dataset
 - **Purpose**: A comprehensive 3D dataset for research and applications in computer vision, robotics, AR/VR, and scene understanding.
-- **Topics**: It supports the training of Monocular Depth (e.g., DPT), Stereo Matching (e.g., FoundationStereo), Feed-Forward (e.g., VGGT, Pi3, DepthAnythingV3), MVS, SLAM and so on.
+- **Topics**: It supports the training of Monocular Depth (e.g., DepthAnythingV2), Stereo Matching (e.g., FoundationStereo), Feed-Forward (e.g., VGGT, Pi3), MVS, SLAM and so on.
 
 ## Download
 
-Still uploading, **25/100** scenes are done (listed in [scenes.txt](scenes.txt)), near 300K samples, eventually will be over 1M multiview samples!
+Still uploading, **30/100** scenes are done (listed in [scenes.txt](scenes.txt)), near 400K samples, eventually will be over 1M multiview samples!
 
 - **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
 - **Google Drive**: please contact us if anyone can help, super slow transfering speed.
-
+- **Hugging Face**: due to the single file size (max 5G) limited by huggingface, we will not submit our data to huggingface.
 
 ## Dataset Reader
 

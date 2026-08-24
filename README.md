@@ -24,6 +24,12 @@ Still uploading, **30/100** scenes are done (listed in [scenes.txt](scenes.txt))
 - **Google Drive**: please contact us if anyone can help, super slow transfering speed.
 - **Hugging Face**: due to the single file size (max 5G) limited by huggingface, we will not submit our data to huggingface.
 
+### Demo Data (101 image pairs, near 1G size)
+
+- **Baidu Yunpan**: https://pan.baidu.com/s/1DzJvQu6dEhi7svqE1S-18Q?pwd=rock
+- **Google Drive**: update soon.
+
+
 ## Dataset Reader
 
 Features may include (see [reader.py](reader.py)):

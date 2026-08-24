@@ -43,8 +43,9 @@ def read_normal(filename):
 
 
 if __name__ == '__main__':
-    root = './Rawmantic/ProductionandIndustry/Special/ProductionandIndustry_Specail_00000002_SanctumSanctorum/00000002_SanctumSanctorum_03/data'
-    id = 10
+    # root = './data/'
+    root = './demo/'
+    id = 400
 
     img = read_image(os.path.join(root, 'rgb_camera_left', f"{id:08}_rgb.jpg"))
     plt.imshow(img); plt.show()
